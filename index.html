@@ -3,39 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aleksandr Bazanov</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Aleksandr Bazanov</h1>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Aleksandr Bazanov</h1>
+            <p class="tagline">Creative • Bright • Fresh</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
     </header>
+
+    <nav class="navbar">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
     <section id="about">
         <h2>About Me</h2>
-        <p>Hello! My name is Aleksandr Bazanov. I was born in Moscow, Russia in 2004. My whole life I have dreamt about shaping the future, and now I am fulfilling my dream by becoming a part of something greater.</p>
+        <p>
+            Write a short introduction about yourself here. 
+            This design uses bright green shades to give a fresh and lively look.
+        </p>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
+
         <div class="project-card">
-            <h3>Final Advanced Programming project at SRH Berlin University of Applied Sciences</h3>
-            <p>Description of your project.</p>
+            <h3>Project Title</h3>
+            <p>A short description of your project goes here.</p>
+            <a href="#" class="btn secondary">View Project</a>
         </div>
+
+        <div class="project-card">
+            <h3>Project Title</h3>
+            <p>A short description of your project goes here.</p>
+            <a href="#" class="btn secondary">View Project</a>
+        </div>
+
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email: Aleksandr.Bazanov@stud.srh-university.de
-        Phone: +49 176 614 680 20
-        </p>
+        <p>Email: <strong>yourname@example.com</strong></p>
+        <p>Feel free to reach out for collaborations or projects!</p>
     </section>
+
+    <footer>
+        <p>© 2025 Your Name. All Rights Reserved.</p>
+    </footer>
 
 </body>
 </html>

@@ -1,30 +1,101 @@
+/* GENERAL */
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    font-family: "Verdana", sans-serif;
+    color: #1a3d1a;
+    background: #e9ffe9;
 }
 
-header {
-    background: #222;
+/* HEADER / HERO */
+.hero {
+    background: linear-gradient(135deg, #00b347, #8cff8c);
+    padding: 120px 20px;
+    text-align: center;
     color: white;
-    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    margin: 10px 0 20px;
+}
+
+/* NAVBAR */
+.navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    background: #b6ffb6;
+    padding: 10px;
+    gap: 20px;
+    position: sticky;
+    top: 0;
 }
 
-nav a {
-    color: white;
-    margin: 0 10px;
+.navbar a {
+    color: #004d1a;
     text-decoration: none;
+    font-weight: bold;
 }
 
+/* SECTIONS */
 section {
-    padding: 40px;
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
 }
 
+h2 {
+    color: #006622;
+    margin-bottom: 20px;
+}
+
+/* PROJECT CARDS */
 .project-card {
-    background: #f4f4f4;
+    background: #ccffcc;
+    border-left: 6px solid #00b347;
     padding: 20px;
-    margin: 10px 0;
+    margin-bottom: 20px;
     border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 100, 0, 0.2);
+}
+
+/* BUTTONS */
+.btn {
+    background: #006622;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.2s ease;
+}
+
+.btn:hover {
+    background: #00b347;
+}
+
+.btn.secondary {
+    background: #00b347;
+}
+
+.btn.secondary:hover {
+    background: #008f2a;
+}
+
+/* FOOTER */
+footer {
+    background: #004d1a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
 }
